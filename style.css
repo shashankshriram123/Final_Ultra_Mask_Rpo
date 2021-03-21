@@ -1,0 +1,103 @@
+body, html{
+    /* main/basic parameters for all pages*/
+    height: 100%;
+    margin: 0;
+    color:#474747;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 0%;
+    display: block;
+    padding:0%;
+
+}
+a{
+    color:#474747;
+    text-decoration: none;
+
+}
+/* importing background SVG img*/
+body{
+    background:url('../images/background2.svg') no-repeat;
+    background-size: cover;
+    padding-bottom: 0%;
+}
+/* homepage image*/
+.productImage{
+    
+    position: absolute;
+    margin:90px auto;
+    right: -17.5%;
+
+}
+/*about the product image */
+.productImage2{
+    left:0%;
+    margin:10px;
+    margin:90 auto;
+}
+/* main text home page*/
+.container{
+    text-align:left;
+    width:20%;
+    margin-left:5% ;
+    margin-bottom: 20%;
+}
+/* main text about the product page*/
+.container2{
+    text-align:left;
+    width:40%;
+    margin-left:5% ;
+    margin-bottom: 50%;
+}
+/* main text order now page*/
+.container3{
+    text-align:left;
+    width:80%;
+   
+    margin-bottom: 0%;
+}
+
+
+#logo{
+    font-size: 6rem;
+}
+h1{
+    font-size:4.5rem;
+    
+}
+#logo2{
+    font-size: 4rem;
+}
+#logo3{
+    font-size: 7.5rem;
+}
+h2{
+    font-size: 1.25rem;
+}
+/* navigation bar button and links*/
+nav{
+    padding: 50px;
+}
+nav ul{
+    list-style-type: none;
+    float:right;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color:#000;
+    padding:0 30px;
+}
+.Contact_the_Team{
+    padding:0px;
+    text-align: center;
+    color:#474747;
+
+}
+.Contact_the_Team h1{
+    font-size: 5rem;
+}
+.Contact_the_Team p{
+    font-size: 1.5rem;
+
+}
